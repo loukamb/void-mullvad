@@ -1,0 +1,11 @@
+{
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "mullvad:install": "node ./src/index.mjs --install",
+    "mullvad:uninstall": "node ./src/index.mjs --uninstall"
+  },
+  "dependencies": {
+    "@types/node": "^20.11.30"
+  }
+}
